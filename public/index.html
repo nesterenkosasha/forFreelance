@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Freelance</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+  #header{
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    color: grey;
+  }
+  #container{
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid grey;
+	border-radius: 10px;
+	width: 500px; 
+	display: block;
+}
+.d{
+	width:100px;
+	height: 100px;
+	border-radius: 5px;
+	margin: 10px;
+	background-color: grey;
+}
+#result{
+	width: 500px;
+	height: 300px;
+	margin: 150px auto;
+	border: 2px solid grey;
+	border-radius: 10px;
+	font-size: 50px;
+	text-align: center;
+	font-weight: bold;
+	color: grey;
+	padding: 40px;
+	padding-top: 100px;
+	display: none;
+	z-index: 500;
+}
+
+  </style> 
+</head>
+<body>
+  <h1 id='header'>QUICK GAME</h1>
+	<div id='container'>
+		<div class='row'>
+			<div class='d' id='a'></div>
+			<div class='d' id='b'></div>
+			<div class='d' id='c'></div>
+			<div class='d' id='d'></div>
+		</div>
+		<div class='row'>
+			<div class='d' id='e'></div>
+			<div class='d' id='f'></div>
+			<div class='d' id='g'></div>
+			<div class='d' id='h'></div>
+		</div>
+		<div class='row'>
+			<div class='d' id='i'></div>
+			<div class='d' id='j'></div>
+			<div class='d' id='k'></div>
+			<div class='d' id='l'></div>
+		</div>
+		<div class='row'>
+			<div class='d' id='m'></div>
+			<div class='d' id='n'></div>
+			<div class='d' id='o'></div>
+			<div class='d' id='p'></div>
+		</div>
+	</div>
+	<div id='result'></div>
+	<div class="row justify-content-md-center">
+	<button type="button" class="btn btn-secondary" id='btn'>Start game</button></div>
+</body>
+</html>
